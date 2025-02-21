@@ -1,0 +1,124 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  z-index: 100;
+}
+
+header {
+  background: #007bff; /* Primary color for the header */
+  color: white;
+  padding: 50px 0;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Section backgrounds */
+#about, #services, #mission, #contact {
+  background-color: #f4f4f4; /* Light grey background */
+  padding: 50px 0;
+}
+
+/* About section image */
+#about img {
+  width: 100%;
+  height: auto;
+  max-height: 500px; /* Reduced Image Height */
+  object-fit: cover;
+  border-radius: 8px;}
+
+/* Contact form */
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-primary {
+  background-color: goldenrod;
+  border-color: goldenrod;
+}
+
+footer {
+  background-color: black;
+  color: goldenrod;
+  padding: 20px 0;
+  min-height: 30px;
+  
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #007bff;
+}
+
+.footer i {
+  margin: 0 10px;
+}
+
+/* Adjust for mobile screens */
+@media (max-width: 768px) {
+  .navbar-brand {
+      font-size: 1.5rem;
+  }
+
+  .section-heading {
+      font-size: 2rem;
+  }
+
+  .col-lg-6 {
+      margin-bottom: 30px;
+  }
+}
+.fw-bolder{
+  margin-top: 20px;
+}
+#mainNav img{
+  min-height: 40px;
+  width: 40px;
+}
+#mainNav a{
+  color: goldenrod;
+}
+#head{
+  background-color: black;
+  color: goldenrod;
+}
+#head h1{
+  margin-top: 30px;
+}
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 2rem;     
+  font-weight: 100;  
+  color: #333;           
+  line-height: 1.3;      
+  margin-bottom: 20px;   
+}
+#back{
+  background-color: goldenrod;
+}
+
+.footer-text{
+  color: goldenrod;
+  text-align: center;
+}
+
+.submit{
+  background-color: goldenrod;
+  border: none;
+  
+}

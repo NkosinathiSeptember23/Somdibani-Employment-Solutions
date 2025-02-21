@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Somdibani Employment Solutions</title>
+    <link rel="icon" type="image" href="assets/IMG-20241009-WA0010.jpg" />
+    <!-- Link to external CSS file-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#page-top"><img src="assets/IMG-20241009-WA0010.jpg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Our Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mission">Our Mission</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header-->
+    <header id="head">
+        <div class="container px-4 text-center" >
+            <h1 class="fw-bolder">Welcome to Somdibani Employment Solutions</h1><br />
+            <h3 class="fw-bolde">Your concern is our biggest concern</h3><br />
+        </div>
+    </header>
+
+    <!-- About section-->
+    <section id="about">
+        <div class="container px-4">
+            <div id="about" class="row gx-4 justify-content-center align-items-center">
+                <!-- Left Column with Image -->
+                <div class="col-lg-6">
+                    <img src="assets/IMG-20241008-WA0035.jpg" alt="Somdibani Employment Solutions" class="img-fluid" />
+                </div>
+                <!-- Right Column with Text -->
+                <div class="col-lg-6">
+                    <h2 class="section-heading">About Us</h2>
+                    <p class="lead">At Somdibani Employment Solutions, we are dedicated to empowering job seekers and businesses. We specialize in revamping CVs, ensuring they highlight your skills and experience in the best light to attract employers. In addition to resume building, we assist in applying for jobs that align with your career goals, we make numerous job applications on your behalf each day. Our team also provides tailored interview coaching, preparing you with potential questions and strategies for making a strong impression.</p>
+                    <p>To access these services, our clients need to pay a subscription fee of R250, which covers a two-months period. This fee also includes transport assistance for any interviews you secure through our platform. At Somdibani, we aim to foster long-term relationships, empower job seekers with the skills they need, and help businesses find the best talent. Whether you are new to the job market or looking for your next career opportunity, we are here to support you every step of the way.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section-->
+    <section class="bg-light" id="services">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="section-heading">Services we offer</h2>
+                    <p class="lead">We also do:</p>
+                    <p>CV Revamps</p>
+                    <p>Web Development</p>
+                    <p>Company Registration</p>
+                    <p>BBBEE Certificates</p>
+                    <p>Posters</p>
+                    <p>Business Plans</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission section-->
+    <section id="mission">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="section-heading">Our mission</h2>
+                    <p class="lead">To deliver exceptional recruitment solutions that exceed client expectations, while providing personalized support to candidates in achieving their career goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section with Form-->
+    <!-- Contact section with Form-->
+<section id="contact">
+    <div class="container px-4">
+        <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="section-heading">Contact us</h2>
+                <p class="lead">Whatsapp/Call : 079 1723 490</p>
+                <p class="lead">Email : <a>mahlangumeshack13@gmail.com</a></p>
+
+                <!-- Contact Form -->
+                <form action="mailto:mahlangumeshack13@gmail.com" method="POST" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="contact" class="form-label">Contact Details</label>
+                        <input type="text" class="form-control" id="contact" name="contact" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="documents" class="form-label">Upload Documents</label>
+                        <!-- Allowing multiple file uploads (up to 5 files) -->
+                        <input type="file" class="form-control" id="documents" name="documents[]" multiple accept="application/pdf, .doc, .docx, .txt, .jpg, .jpeg, .png" required />
+                        <small class="form-text text-muted">You can upload up to 5 documents.</small>
+                    </div>
+                    <button type="submit" class="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer-->
+    <!-- Footer-->
+<footer id="footer">
+    <div class="container px-4">
+        <p class="footer-text">Copyright &copy; Somdibani Employment Solutions.</p>
+        
+        <!-- Social Media Icons -->
+        <div class="text-center mt-3">
+            <a href="https://www.facebook.com/profile.php?id=61566828186230" target="_blank" class="text-white mx-2">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank" class="text-white mx-2">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="text-white mx-2">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<!-- Font Awesome Icons (for social media) -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
